@@ -9,11 +9,13 @@ public class Demo {
         System.out.println("Jumlah xx + yy : "+ sum(xx,yy));
 	}
 	
-	public static int sum(int x, int y){		
+	public static int sum(int x, int y){	
+		// Metod sum  ........................
 		return (x+y);
 	}
 	
 	public static int mak(int x, int y){
+		// Metod makanya .....
 		if (x > y) {
 			return x;
 		}
